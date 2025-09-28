@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+
+# Coverage
+coverage/
+**/coverage/
+
+# Jest / Testing
+jest.config.js
+jest.setup.js
+
+# Misc
+*.bak
+*.swp
